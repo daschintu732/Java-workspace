@@ -1,0 +1,12 @@
+package example1;
+
+public class FibonacciUptoN {
+
+	public static void main(String[] args) {
+		
+		int first=0, second=1;
+		
+		
+		
+	}
+}

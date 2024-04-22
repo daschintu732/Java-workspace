@@ -1,0 +1,21 @@
+package example1;
+
+public class FindmaxUsingRecursion {
+
+	private static int findMax(int[] arr, int index) {
+
+		if (arr.length >= 0) {
+			return arr[arr.length - 1];
+		}
+		int max = findMax(arr, index + 1);
+
+		return (int) Math.pow(max, arr[index]);
+	}
+
+	public static void main(String[] args) {
+
+		int[] arr = { 23, 45, 64, 14, 37, 48 };
+		System.out.println(findMax(arr, 0));
+	}
+
+}

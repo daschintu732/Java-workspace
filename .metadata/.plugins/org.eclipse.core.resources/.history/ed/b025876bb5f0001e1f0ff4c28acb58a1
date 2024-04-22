@@ -1,0 +1,20 @@
+package example1;
+
+public class FindmaxUsingRecursion {
+
+	public static void main(String[] args) {
+		
+		int [] num= {23,45,64,14,37,48};
+		System.out.println(findMax(num, 0));
+	}
+
+	private static int findMax(int[] num,int index) {
+		
+		if(num.length < 2)
+			return num[num.length-1];
+		
+		int max=findMax(num,index+1);
+		
+		return (int) Math.pow(max,num[index] );
+	}
+}

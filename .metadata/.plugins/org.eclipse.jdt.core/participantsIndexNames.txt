@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+F:\Java-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1647384758.index
+\P-Notebooks\src\main\resources
+E:\Java-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3637856198.index
+\WEATHER-API\src\main\java
+F:\Java-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3395449180.index
+\Notebooks\src\main\resources

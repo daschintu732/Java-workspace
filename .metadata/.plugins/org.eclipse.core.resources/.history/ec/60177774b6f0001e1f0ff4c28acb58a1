@@ -1,0 +1,15 @@
+package example1;
+
+public class FindmaxUsingRecursion {
+	
+	public static void findMaxNumber(int[] arr) {
+		
+		System.out.println(arr);
+		findMaxNumber(arr);
+	}
+
+	public static void main(String[] args) {
+	  
+		int[] arr= {12,23,45,56};
+	}
+}

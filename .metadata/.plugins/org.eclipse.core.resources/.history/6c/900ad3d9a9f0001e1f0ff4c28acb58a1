@@ -1,0 +1,19 @@
+package example1;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		
+		int num=1;
+		boolean ans=checkPrime(num);
+		System.out.println(ans);
+	}
+
+	public static boolean checkPrime(int num) {
+		
+		if(num<2)
+			return true;
+		return false;
+	}
+
+}

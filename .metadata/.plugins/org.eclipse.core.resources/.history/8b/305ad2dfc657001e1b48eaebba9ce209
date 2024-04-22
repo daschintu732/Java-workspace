@@ -1,0 +1,26 @@
+package cycle_sort;
+
+public class FindDuplicateNum {
+
+	public static void main(String[] args) {
+		int[] arr= {2,4,1,4,3,5};
+		System.out.println(findDuplicateNumber(arr));
+	}
+
+	private static int findDuplicateNumber(int[] arr) {
+		
+		int i=0;
+		while(i<arr.length) {
+			
+			if(arr[i] != i+1)
+			{
+				
+			}
+			else {
+				i++;
+			}
+		}
+
+		return -1;
+	}
+}

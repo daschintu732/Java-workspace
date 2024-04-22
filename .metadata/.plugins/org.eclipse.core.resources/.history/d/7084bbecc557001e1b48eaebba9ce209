@@ -1,0 +1,15 @@
+package cycle_sort;
+
+public class FindDuplicateNum {
+
+	public static void main(String[] args) {
+		int[] arr= {2,4,1,4,3,5};
+		System.out.println(findDuplicateNumber(arr););
+	}
+
+	private static int findDuplicateNumber(int[] arr) {
+		return -1;
+		// TODO Auto-generated method stub
+		
+	}
+}

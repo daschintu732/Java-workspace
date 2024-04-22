@@ -1,0 +1,18 @@
+package example1;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+		
+		int num=3;
+		checkPrime(num);
+	}
+
+	public static boolean checkPrime(int num) {
+		
+		if(num<2)
+			return true;
+		return false;
+	}
+
+}
